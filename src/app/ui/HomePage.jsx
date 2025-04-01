@@ -822,7 +822,7 @@ function Projects() {
       title: "Oruese School | Hybrid school Management System",
       description:
         "A modern, cloud-based School Management System built with React, Node.js, and Supabase, designed to simplify school administration. It streamlines student enrollment, attendance tracking, grading, and communication between teachers, students, and parents. Featuring secure authentication, real-time data updates, and an intuitive dashboard, it enhances efficiency for educational institutions",
-      image: "/dashboard-placeholder.jpg",
+      image: "/school.png",
       tags: [
         "React",
         "Styled  Component",
@@ -838,7 +838,7 @@ function Projects() {
       title: "NextWave – Movie Streaming & Downloading Platform",
       description:
         "NextWave is a modern movie streaming and downloading platform that offers a seamless entertainment experience. With a sleek interface inspired by Google TV, users can  stream and download latest movies as soon as its been releasd. explore movies, series, and genres effortlessly",
-      image: "/tasks-placeholder.jpg",
+      image: "/nextwave.png",
       tags: ["React", "Node.js", "MongoDB", "Socket.io", "JWT", "Express"],
       demoLink: "https://nextwave-one.vercel.app/",
     },
@@ -847,7 +847,7 @@ function Projects() {
       title: "AmazonAura | Best Daily Deals on Amazon",
       description:
         "AmazonAura is a smart deal aggregation platform that helps users find the best daily discounts on Amazon in real time. Using web scraping and automation, it curates top deals across various categories, ensuring users never miss out on savings. With an intuitive interface, quick search, and regularly updated listings, AmazonAura simplifies bargain hunting for shoppers",
-      image: "/realestate-placeholder.jpg",
+      image: "/amazonaura.PNG",
       tags: ["Next.js", "GraphQL", "MongoDB", "Mapbox", "AWS S3"],
       demoLink: "#projects",
     },
