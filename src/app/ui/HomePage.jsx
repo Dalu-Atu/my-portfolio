@@ -894,10 +894,10 @@ function Projects() {
 
                   {/* Ensure the image takes the full width & height */}
                   <Image
-                    width={500}
-                    height={500}
+                    width={1000}
+                    height={1000}
                     src={project.image}
-                    className="w-full h-full object-cover" // <- Ensures full coverage
+                    className=" object-cover" // <- Ensures full coverage
                   />
                 </div>
               </div>
