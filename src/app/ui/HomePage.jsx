@@ -243,7 +243,7 @@ function Hero() {
             {/* Social links */}
             <div className="flex items-center gap-6 mb-8">
               <a
-                href="www.linkedin.com/in/daniel-atu-a8b753359"
+                href="www.linkedin.com/in/daniel-atu"
                 className="text-gray-400 hover:text-white transition-colors"
                 aria-label="LinkedIn"
               >
