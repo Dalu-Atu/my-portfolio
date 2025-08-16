@@ -474,7 +474,6 @@ const ContactSection = function () {
                       onClick={handleSubmit}
                       disabled={isSubmitting || isSubmitted}
                       className=" bg-blue-500  w-full px-8 py-4 rounded-xl font-semibold text-white cursor-pointer flex items-center justify-center gap-3 text-lg"
-                      disabled={isSubmitting || isSubmitted}
                     >
                       {isSubmitting ? (
                         <>
