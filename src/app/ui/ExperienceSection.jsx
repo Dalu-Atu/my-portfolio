@@ -454,7 +454,7 @@ const ExperienceSection = function () {
         <div className="absolute bottom-1/3 left-1/4 w-80 h-80 rounded-full blur-3xl opacity-[0.03] bg-purple-500"></div>
       </div>
 
-      <section className="py-15 px-5 relative z-10">
+      <section id="experience" className="py-15 px-5 relative z-10">
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16 animate-fadeInUp">

@@ -7,12 +7,11 @@ import ExperienceSection from "./ExperienceSection";
 import ContactSection from "./ContactSection";
 
 const navItems = [
-  "Services",
-  "Work",
-  "Solutions",
-  "About",
-  "Pricing",
-  "Contact",
+  { label: "About Me", id: "about-me" },
+  { label: "Projecs", id: "projects" },
+  { label: "Experience", id: "experience" },
+  { label: "Education", id: "experience" },
+  { label: "Certification", id: "experience" },
 ];
 
 const heroStats = [
@@ -226,7 +225,9 @@ const HomePage = function () {
                 key={index}
                 className="text-sm font-medium text-slate-400 cursor-pointer transition-all duration-300 py-2 relative hover:text-white"
               >
-                {item}
+                <a href={`#${item.id}`} className="block">
+                  {item.label}
+                </a>
               </li>
             ))}
           </ul>
@@ -244,6 +245,7 @@ const HomePage = function () {
           </button>
         </div>
 
+        {/* Mobile Menu */}
         <div
           className={`md:hidden bg-slate-900 border-t border-slate-700 transition-all duration-300 overflow-hidden ${
             isOpen ? "max-h-96" : "max-h-0"
@@ -255,13 +257,21 @@ const HomePage = function () {
                 key={index}
                 className="text-sm font-medium text-slate-400 cursor-pointer transition-all duration-300 hover:text-white"
               >
-                {item}
+                <a
+                  href={`#${item.id}`}
+                  className="block"
+                  onClick={() => setIsOpen(false)}
+                >
+                  {item.label}
+                </a>
               </li>
             ))}
 
             {/* Mobile Contact Button */}
             <button className="bg-blue-500 border-none px-6 py-3 rounded-lg font-semibold text-white cursor-pointer flex items-center gap-2 transition-all duration-300 text-sm hover:bg-blue-600">
-              <span>Contact Me</span>
+              <a href="#contact" className="block">
+                Contact Me
+              </a>
               <Send size={16} />
             </button>
           </ul>

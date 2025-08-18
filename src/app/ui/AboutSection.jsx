@@ -310,7 +310,7 @@ const AboutSection = function () {
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] rounded-full blur-3xl opacity-[0.02] bg-gradient-to-br from-cyan-500 to-blue-500"></div>
       </div>
 
-      <section className="py-10 px-4 relative z-10">
+      <section id="about-me" className="py-10 px-4 relative z-10">
         <div className="max-w-7xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-20 animate-fadeInUp">
